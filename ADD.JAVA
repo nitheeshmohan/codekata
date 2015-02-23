@@ -18,8 +18,7 @@ class node
         {
                   BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
                   String s1;
-                  /* sequence d=new sequence();*/
-                  System.out.println("Enter your sequence. press enter to stop ");
+                System.out.println("Enter your sequence. press enter to stop ");
                   s1=br.readLine();
                   int k=0;
                    for(int i=0;i<s1.length();i++)
@@ -52,10 +51,7 @@ class node
        
       public void display()
       {
-          float avg,s,c1;
-          s=sum;c1=count;
-          avg=sum/count;
-          System.out.println("The sum is "+sum+"The average is "+avg);
+          System.out.println("The sum is "+sum+"The average is "+sum/count);
                   
       }
 }
