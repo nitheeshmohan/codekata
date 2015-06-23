@@ -15,7 +15,7 @@ class invite{
             strong[i]=new Scanner(System.in).nextInt(); //getting strong and beauty of each person
             beauty[i]=new Scanner(System.in).nextInt();
             for(int j=0;j<i;j++){
-                if(!((strong[i]<=strong[j]&&beauty[i]>=beauty[j])||(strong[i]>=strong[j]&&beauty[i]<=beauty[j])))
+                if(!((strong[i]<=strong[j]&&beauty[i]>=beauty[j])||(strong[i]>=strong[j]&&beauty[i]<=beauty[j]))) //checking if people hate each other
                 {
                     
                     if(check[i]==0){
