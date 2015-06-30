@@ -1,0 +1,17 @@
+import java.util.*;
+class workingDay{
+    public static void main(String args[]){
+        String s=new Scanner(System.in).next();
+        if(working(s))
+            System.out.println("Holiday");
+        else
+            System.out.println("Working day");
+
+    }
+    public static boolean working(String s){
+        if(s.toLowerCase().equals("sunday"))
+            return true;
+        return false;
+    }
+    
+}
